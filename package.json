@@ -2,6 +2,7 @@
   "name": "vistara-server",
   "packageManager": "yarn@3.4.1",
   "dependencies": {
+    "ali-oss": "^6.17.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "sqlite3": "^5.1.6"
