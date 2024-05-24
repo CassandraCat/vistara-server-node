@@ -1,2 +1,2 @@
 # Vistara
-An Instant Messenger System:rocket:
+An Instant Messenger System 🚀
