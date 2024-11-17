@@ -5,8 +5,8 @@ const app = express()
 app.get('/sts', (req, res) => {
     let sts = new STS({
         // 填写步骤1创建的RAM用户AccessKey。
-        accessKeyId: 'LTAI5tG82K2Axqf21wqoCGAA',
-        accessKeySecret: 'PybUteR2QIt87wNldi0o4B4mznBUyQ'
+        accessKeyId: '',
+        accessKeySecret: ''
     })
     // roleArn填写步骤2获取的角色ARN，例如CPUacs:ram::175708322470****:role/ramtest。
     // policy填写自定义权限策略，用于进一步限制STS临时访问凭证的权限。如果不指定Policy，则返回的STS临时访问凭证默认拥有指定角色的所有权限。
